@@ -4,32 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <li class="flex justify-between items-center my-4 px-5 py-3 w-full rounded-lg" style="box-shadow: inset 3px 4px 16px gray">
+        <span>Add task...</span>
+        <div class="flex gap-4">
+            <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125"  src="./123.png" alt="" srcset="">
+        </div>
+    </li>
     <title>TODO</title>
 </head>
         <body class="bg-white">
-    <h1 class="grid justify-center text-5xl mt-10 mb-3">TODO APP</h1>
-    <card class="block m-5 p-5 rounded-lg shadow-2xl" style="background-color: #E7D8FF;">
-        <div class="flex justify-between">
-            <button style="background-color: white ">TODO</button>
-            <button>COMPLATED</button>
+    <h1 class="grid justify-center text-5xl mt-10 mb-3" style="font-family:'Irish Grover';">TODO APP</h1>
+    <card class="block m-5 p-5 rounded-lg shadow-2xl gap-4" style="background-color: #E7D8FF;">
+        <div class="flex justify-between gap-4">
+            <button style="background-color: #C4A6F3;" class ="px-5 py-3 w-full rounded-lg duration-300 hover:scale-95">TODO</button>
+            <button style="background-color: #9280B0;" class ="px-5 py-3 w-full rounded-lg duration-300 hover:scale-95">COMPLATED</button>
         </div>
-        <div>
+        <div class="mt-4">
             <ul>
-                <li>
+                <li class="flex justify-between items-center my-4 px-5 py-3 w-full rounded-lg" style="box-shadow: inset 3px 4px 16px gray">
                     <span>TASK NAME</span>
-                    <div>
-                        <img class="w-8 h-8"  src="./123.png" alt="" srcset="">
-                        <img class="w-8 h-8" src="./145.jpeg" alt="" srcset="">
-                        <img class="w-8 h-8" src="./1234.png" alt="" srcset="">
+                    <div class="flex gap-4">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125"  src="./123.png" alt="" srcset="">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125" src="./145.jpeg" alt="" srcset="">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125" src="./1234.png" alt="" srcset="">
                     </div>
                 </li>
-                <li>
-                    <span>TASK NAME</span>
-                    <div>
-                        <img src="./123.png" alt="" srcset="">
-                        <img src="./145.jpeg" alt="" srcset="">
-                        <img src="./1234.png" alt="" srcset="">
+                <li class="flex justify-between items-center my-4 px-5 py-3 w-full rounded-lg" style="box-shadow: inset 3px 4px 16px gray">
+                    <span>TASK 2</span>
+                    <div class="flex gap-4">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125"  src="./123.png" alt="" srcset="">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125" src="./145.jpeg" alt="" srcset="">
+                        <img class="cursor-pointer w-8 h-8  duration-300 hover:scale-125" src="./1234.png" alt="" srcset="">
+                    </div>
+                </li>
+                <li class="flex justify-between items-center my-4 px-5 py-3 w-full rounded-lg" style="box-shadow: inset 3px 4px 16px gray">
+                    <span>TASK 3</span>
+                    <div class="flex gap-4">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125"  src="./123.png" alt="" srcset="">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125" src="./145.jpeg" alt="" srcset="">
+                        <img class="cursor-pointer w-8 h-8 duration-300 hover:scale-125" src="./1234.png" alt="" srcset="">
                     </div>
                 </li>
             </ul>    
